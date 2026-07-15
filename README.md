@@ -10,7 +10,7 @@ How it works
 The project has two halves:
 
 
-The board. A Microchip Curiosity board (SAME51J20) running CircuitPython 10.1 reads motion from an onboard IMU (ICM-20948) and streams a directional frame as JSON over USB serial at 10 Hz. Each frame carries the fused swing direction (LEFT / RIGHT / UP / DOWN / NONE), gyro magnitude, accelerometer magnitude, and tilt angle.
+The board. A Microchip Curiosity board (SAME51J20) running CircuitPython 10.1 reads motion from an onboard IMU and streams a directional frame as JSON over USB serial at 10 Hz. Each frame carries the fused swing direction (LEFT / RIGHT / UP / DOWN / NONE), gyro magnitude, accelerometer magnitude, and tilt angle.
 The browser. An HTML/JavaScript front end reads that serial stream directly using the Web Serial API and turns your swings and hits into gameplay. The browser also sends HIT / MISS / WIN / LOSE back to the board so the NeoPixels and audio can react.
 
 
