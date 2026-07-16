@@ -2,7 +2,7 @@ Lightsaber Duel
 
 A physical lightsaber dueling game that bridges a CircuitPython microcontroller with a browser. The board tracks your real-world motion and drives gameplay on screen in real time.
 
-Show Image
+![Gameplay](gameplay.gif) 
 
 <!-- Drop a screenshot or short GIF at docs/gameplay.gif. A phone clip of a duel in progress works fine. -->
 How it works
